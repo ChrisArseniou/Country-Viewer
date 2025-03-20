@@ -19,9 +19,6 @@ export class HomeComponent implements OnInit {
   searchText:any;
   constructor(public data:DataService,public route:Router){}
 
-  // ngAfterViewInit() {
-  //   this.dataSource.paginator = this.paginator;
-  // }
 
   ngOnInit(): void {
     this.onFetchData();
